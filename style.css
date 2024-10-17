@@ -1,0 +1,50 @@
+* {
+  font-family: "Franklin Gothic Medium", sans-serif;
+  text-align: center;
+}
+
+html{
+  background-color: #FFC6C6;
+}
+
+#container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #FFEBD4;
+  max-width: 400px;
+  min-width: 300px;
+  margin: 0 auto;
+  color: #C75B7A
+}
+
+#container,
+#quiz > * {
+  flex-direction: column;
+}
+
+#nextButton{
+  background-color: #F7B5CA;
+  margin: 0 auto;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 5px;;
+  box-shadow: #C75B7A;
+  margin-bottom: 10px;
+}
+
+.answerButtons{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+} 
+
+.button{
+  padding: 20px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+
+
